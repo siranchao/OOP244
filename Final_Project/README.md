@@ -23,59 +23,6 @@ Later, each publication can be lent out to members of the library with a due dat
 ## Milestones due dates
 This project will be done in 5 milestones and each milestone will have its due date. The due date of each milestone is stated below, and it is based on the amount of work to be done for that milestone. 
 
-## Final project mark and due dates
-
-|Milestone| Mark | Due date | Submission Policy|
-|:------:|:---:|:---:|-------|
-| MS1 | 10% | Nov 9th | gets full mark even if 1 week late. gets 0% afterwards|
-| MS2 | 10% | Nov 15th | gets full mark even if 1 week late. gets 0% afterwards|
-| MS3 | 10% | Nov 22nd | gets full mark even if 1 week late. gets 0% afterwards|
-| MS4 | 10% | Nov 27th  | gets full mark even if 1 week late. gets 0% afterwards|
-| MS5 (Final Milestone) | 60% | Dec 6th| 10% penalty for each day being late up to 5 days|
-
-> The first 4 milestones will not be marked based on the code, but their success and their timely submissions. You may modify or debug your previous code as you are going through the milestones. The only milestone that is going to scrutinized based your code will be milestone 5. If you require any feedback on your first four milestones you need to ask your professor to do so.
-
-***NOTE:***<br/>
-**Your project will receive a mark of zero if any of the milestones are not submitted by the rejection date (December 12th, 23:59 )**
-
-You can check the due date of each milestone using the ```-due``` flag in the submission command:
-```bash
-~profname.proflastname/submit 2??/prj/m? -due
-```
-- replace **2??** with the subject code
-- replace **m?** with the milestone number
-
-## Citation, Sources
-
-When submitting your work, all the files submitted should carry full student information along with the "citation and sources" information. See the following example:
-
-If you have multiple submissions of the same milestone, please update the Revision History in each submission so your professor knows what changes to look for.
-
-```C++
-/* Citation and Sources...
-Final Project Milestone ? 
-Module: Whatever
-Filename: Whatever.cpp
-Version 1.0
-Author	John Doe
-Revision History
------------------------------------------------------------
-Date      Reason
-2020/?/?  Preliminary release
-2020/?/?  Debugged DMA
------------------------------------------------------------
-I have done all the coding by myself and only copied the code 
-that my professor provided to complete my workshops and assignments.
------------------------------------------------------------
-OR
------------------------------------------------------------
-Write exactly which part of the code is given to you as help and 
-who gave it to you, or from what source you acquired it.
------------------------------------------------------------*/
-```
-
-**Failing to include the above citation to any of the files containing your work will cause the rejection of your project submission**
-
 ## Compiling and Testing Your Program
 
 All your code should be compiled using this command on `matrix`:
