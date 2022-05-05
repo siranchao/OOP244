@@ -48,24 +48,6 @@ To check the output, use a program that can compare text files.  Search online f
 
 > Make sure that all the debugging code and debugging comments are removed before submission.
 
-## Project Implementation notes:  *Very Important, read carefully*
-- All the code written in this project should be within the namespace sdds.
-- You are free and encouraged to add any attributes(member variables), functions and methods (member functions) you find necessary to complete your code. If you are not sure about your strategy for adding functionalities and properties to your classes, ask your professor for advice.  
-- If any methods are being added and they are not called outside the scope of the class, make sure they are private.
-
-- Unless you are asked for a specific definition, name the variables, and functions yourself. Use proper names and follow the naming conventions instructed by your professor. Having meaningless and misleading names will attract a penalty.
-
-- When creating methods (member functions) make sure to make them constant if in their logic, they are not modifying their class.
-
-- When passing an object or variable by address or reference, if they are not to be modified, make sure they are passed as constant pointers and references.
-
-- If an Empty state is required for an object, it is considered to be an “invalid” empty state, and objects in this state should be rendered unusable.
-
-- A module called **Utils** is added to the project that can be used for your custom functions and classes in your implementation. Leave this module empty if you don't have any custom functionalities. <br />
-You can add any custom code of your own to the **Utils** module to be used throughout the project. <br />  **Utils.h** will be included in all the unit tests of the milestones. 
-
-- You may reuse and copy any code your professor provided for your workshops or functions you may have from previous work in this subject or other subjects and place it in the Utils module. 
-
 # The Project
 
 Before we start developing the application, we need to have a few classes developed to help us with the dates in the system and also the user interface of the application. 
